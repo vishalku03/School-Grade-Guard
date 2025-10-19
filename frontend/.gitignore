@@ -1,0 +1,29 @@
+# Node Modules
+node_modules/
+
+# Build Output
+dist/
+build/
+.next/
+out/
+
+# Environment Files
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Cache
+.cache/
+.vite/
+coverage/
+
+# Lock Files (optional to ignore if only tracking root lock)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Temp
+*.tmp
+*.tsbuildinfo

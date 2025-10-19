@@ -1,0 +1,35 @@
+# Node Modules
+node_modules/
+
+# Build Output (if using TypeScript or build step)
+dist/
+build/
+
+# Environment Files
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Logs
+logs/
+*.log
+
+# Database/ORM (e.g., Prisma/SQLite)
+prisma/*.db
+prisma/*.db-journal
+
+# Temp
+tmp/
+temp/
+*.tmp
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Lock Files (optional to ignore if only tracking root lock)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
